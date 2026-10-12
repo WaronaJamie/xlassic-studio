@@ -1,2 +1,2 @@
 # xlassic-studio
-Web deve;opment website
+Web development website
