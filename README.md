@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# XlassicStudio
+
+XlassicStudio is a creative web development studio based in Botswana, building websites and digital experiences for everyone. Its work combines thoughtful design with carefully crafted code.
+
+The site includes studio services, selected work, contact information, and a digital store for production-ready email templates and premade websites.
 
 ## Getting Started
 
-First, run the development server:
+This project is built with Next.js. Install dependencies, then start the development server:
 
 ```bash
-npm run dev
-# or
+yarn install
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The site is available at [http://localhost:3000](http://localhost:3000). You can also use `npm run dev` if you prefer npm.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `yarn dev` — start the development server
+- `yarn build` — build the production application
+- `yarn start` — start the production server
+- `yarn lint` — run ESLint
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+- [Next.js Documentation](https://nextjs.org/docs) — features and APIs
+- [Learn Next.js](https://nextjs.org/learn) — an interactive tutorial
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The application can be deployed on [Vercel](https://vercel.com), the platform from the creators of Next.js. See the [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for other deployment options.
